@@ -1,0 +1,23 @@
+.goalsHeader {
+    color: blue;
+    font-size: 72px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.myName {
+    color: green;
+}
+
+.listItem {
+    color: red;
+}
+
+#listItemLarge {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+body {
+    background-color: yellow;
+}
