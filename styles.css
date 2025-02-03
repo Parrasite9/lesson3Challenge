@@ -1,7 +1,12 @@
+.headers {
+    /* text-align: center */
+    display: flex;
+    justify-content: space-evenly;
+}
+
 .goalsHeader {
-    color: blue;
-    font-size: 72px;
-    text-align: center;
+    color: #ff00c3;
+    /* font-size: 72px; */
     font-family: 'Courier New', Courier, monospace;
 }
 
@@ -9,15 +14,39 @@
     color: green;
 }
 
+/* .firstList {
+    text-align: end;
+} */
+
 .listItem {
     color: red;
 }
 
-#listItemLarge {
+/* #listItemLarge {
     font-size: 40px;
     font-weight: bold;
+} */
+
+.listAndActionContainer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    border: 4px red solid;
+    grid-column-gap: 10px;
+    background-color: beige;
+    padding: 10px;
 }
 
-body {
-    background-color: yellow;
+.firstList {
+    grid-area: 1/1/2/2;
+    border: 4px green solid;
+    margin: 10px;
+    padding: 5px 10px;
+}
+
+.paragraphColumn {
+    grid-area: 1/2/2/3;
+    border: 4px blue solid;
+    padding: 10px;
+
 }
